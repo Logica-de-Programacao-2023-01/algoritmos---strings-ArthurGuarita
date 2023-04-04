@@ -9,11 +9,10 @@ func main() {
 	var str string
 	fmt.Print("Digite uma string: ")
 	fmt.Scan(&str)
-	//
-	i, err := strconv.ParseFloat(str, 64)
-	if err != nil {
-		fmt.Print("sim")
+	//verificação
+	if _, err := strconv.ParseFloat(str, 64); err == nil {
+		fmt.Print("Sim")
 	} else {
-		fmt.Print("nao", i)
+		fmt.Print("Não")
 	}
 }
