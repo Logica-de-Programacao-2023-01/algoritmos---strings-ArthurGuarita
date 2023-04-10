@@ -20,8 +20,8 @@ func main() {
 		}
 	}
 	if crescente {
-		fmt.Print("O array está em ordem crescente.")
+		fmt.Print("Está em ordem crescente.")
 	} else {
-		fmt.Print("O array não está em ordem crescente.")
+		fmt.Print("Não está em ordem crescente.")
 	}
 }

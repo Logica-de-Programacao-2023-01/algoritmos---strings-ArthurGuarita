@@ -6,13 +6,13 @@ import (
 )
 
 func main() {
-	var input string
+	var str string
 
 	fmt.Print("Digite uma string: ")
-	fmt.Scanln(&input)
+	fmt.Scanln(&str)
 
 	isNumber := true
-	for _, char := range input {
+	for _, char := range str {
 		if !unicode.IsDigit(char) {
 			isNumber = false
 			break

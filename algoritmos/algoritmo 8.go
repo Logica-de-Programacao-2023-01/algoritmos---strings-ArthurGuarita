@@ -13,5 +13,5 @@ func main() {
 	for i := len(str) - 1; i >= 0; i-- {
 		strInvert += string(str[i])
 	}
-	fmt.Print("A inversão da string é", strInvert)
+	fmt.Print("A inversão da string é ", strInvert)
 }
